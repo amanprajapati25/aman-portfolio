@@ -1,0 +1,166 @@
+@import "../../_globalColor";
+
+.social-media-div {
+  font-size: 2em;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.icon-button {
+  margin-bottom: 10px;
+}
+
+.icon-button i {
+  color: $textColorDark;
+  border-radius: 2.6rem;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.3rem;
+  height: 2.6rem;
+  line-height: 2.6rem;
+  margin: 0 5px;
+  position: relative;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 2.6rem;
+  margin-bottom: 10px;
+  transition: 0.2s ease-in;
+}
+
+.facebook i {
+  background-color: $faceBook;
+}
+
+.linkedin i {
+  background-color: $linkedin;
+}
+
+.github i {
+  background-color: $github;
+}
+
+.gitlab i {
+  background-color: $gitlab;
+}
+
+.google i {
+  background-color: $google;
+}
+
+.twitter i {
+  background-color: $twitter;
+}
+
+.medium i {
+  background-color: $medium;
+}
+
+.stack-overflow i {
+  background-color: $stackoverflow;
+}
+
+.instagram i {
+  background-color: $instagram;
+}
+
+.codeforces {
+  background-color: $codeforces;
+  border-radius: 1.5rem;
+  padding: 0.5rem;
+  height: 1.5rem;
+  width: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 5px;
+
+  &:hover {
+    background-color: #000;
+    transition: all 300ms;
+  }
+}
+
+.codechef {
+  background-color: $codechef;
+  border-radius: 1.5rem;
+  padding: 0.5rem;
+  height: 1.7rem;
+  width: 1.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 5px;
+
+  &:hover {
+    background-color: #000;
+    transition: all 300ms;
+    & img {
+      filter: invert(1);
+    }
+  }
+}
+
+.leetcode {
+  background-color: $leetcode;
+  border-radius: 1.5rem;
+  padding: 0.5rem;
+  height: 1.7rem;
+  width: 1.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 5px;
+
+  &:hover {
+    background-color: #000;
+    transition: all 300ms;
+    & img {
+      filter: invert(1);
+    }
+  }
+}
+
+.hackerrank {
+  background-color: $hackerrank;
+  border-radius: 1.5rem;
+  padding: 0.5rem;
+  height: 1.7rem;
+  width: 1.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 5px;
+
+  &:hover {
+    background-color: #000;
+    transition: all 300ms;
+    & img {
+      filter: invert(1);
+    }
+  }
+}
+
+/* Hover Transition */
+.twitter i:hover,
+.google i:hover,
+.gitlab i:hover,
+.github i:hover,
+.linkedin i:hover,
+.facebook i:hover,
+.instagram i:hover,
+.stack-overflow i:hover,
+.kaggle i:hover,
+.medium i:hover {
+  background-color: $textColor;
+}
+
+/* Media Query */
+@media (max-width: 1380px) {
+  .social-media-div {
+    justify-content: center;
+  }
+}
