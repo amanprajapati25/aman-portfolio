@@ -23,26 +23,24 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Sachin Kumar Gupta",
-  title: "Hi, I'm Sachin",
+  username: "Aman Kumar Prajapati",
+  title: "Hi, I'm Aman",
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 and Competitive Programmer 💻 having an experience of building interactive and intuitive web applications."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1t5epimIlh0F3ExEhq5nNbGWGTr5VcFTZ/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1wJoo97UBlzwaql2H1h0ujKZA-Pl1OPMX/view?usp=drivesdk", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/Sachin-KrGupta",
-  linkedin: "https://www.linkedin.com/in/sachinkrgupta/",
-  gmail: "sachingupta959@gmail.com",
-  codeforces: "https://codeforces.com/profile/SachinKumarGupta",
-  codechef: "https://www.codechef.com/users/sachinkrgupta",
-  leetcode: "https://leetcode.com/SachinKumarGupta",
-  hackerrank: "https://www.hackerrank.com/SachinKumarGupta",
+  github: "https://github.com/amanprajapati25/",
+  linkedin: "https://www.linkedin.com/in/aman-prajapati-2b0546191",
+  gmail: "amanprajapati328@gmail.com",
+  leetcode: "https://leetcode.com/amanp2517/",
+  hackerrank: "https://www.hackerrank.com/amanprajapati251?hr_r=1",
   display: true
 };
 
@@ -162,34 +160,35 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Front-End Developer",
-      company: "Josh Technology Group",
-      companylogo: require("./assets/images/jtg.jpeg"),
-      date: "January 2023 – Present",
+      role: "Software Developer (Frontend)",
+      company: "Staqu Technologies",
+      companylogo: require("./assets/images/st.png"),
+      date: "May 2023 - Present",
 
-      desc: "Working on Pod.AI, the organization's flagship product, the fastest growing career development platform that brings together academia, companies, students, and alumni in a single place to collaborate and grow. ",
+      desc: "Contributing to the development and enhancement of JARVIS, STAQU's flagship product, This includes creating a new video management software product, implementing standout features like Recurring Reports, and building the MDM Sales Panel with a wide range of features",
       descBullets: [
-        "Executed a comprehensive project migration from webpack to vite, achieving an 80% reduction in build time—streamlining it from 15 minutes to an impressive 3 minutes.",
-        "Led the development and delivery of the three features, ensuring a seamless user experience and efficient data management.",
-        "Part of mobile application team, responsible for the responsive design of the application to ensure smooth user experience across all devices.",
-        "Worked on the development of organization UI library, which is used across the project.",
-        "Effectively orchestrated the migration of the UI library from webpack to tsup, yielding a remarkable 98% decrease in build time."
+        "Actively contributing to the improvements, optimizations, and feature development for JARVIS, a flagship product of STAQU ",
+        "Developing a new product from scratch that comprehends video management software encompassing camera onboarding, video playback, custom video wall configuration, and advanced video processing capabilities ",
+        "Developed various features for Jarvis, including a standout accomplishment in designing and implementing the Recurring Reports feature, enabling automated report deliveries to clients directly ",
+        "Created a comprehensive web interface MDM Sales Panel from scratch, encompassing features like dynamic inventory categorization, efficient sales report management, detailed profit and loss analysis, and a robust employee information system",
+        "TECH USED: – HTML, SCSS, JS, REACTJS, REDUX, ELECTRONJS and ANTD "
+      ]
+    },
+    {
+      role: "Full Stack Intern",
+      company: "Adpushup Software Limited",
+      companylogo: require("./assets/images/ad2.png"),
+      date: "January 2023 - April 2023",
+
+      desc: "Played the major role in developing the 'Instream Adhoc Dashboard,' cutting ad hosting time by 40% through UI enhancements, and driving revenue growth for 'VideoJsPoc' with header bidding and floor sense features.",
+      descBullets: [
+        "Pioneered the development of the user-friendly 'Instream Adhoc Dashboard' facilitating the seamless placement of video advertisements across diverse websites ",
+        "Streamlined ad hosting time by around 40% through UI optimizations, resulting in improved operational efficiency",
+        "Orchestrated the enhancement of the 'VideoJsPoc' product to amplify revenue from video ad streams ",
+        "Played an integral role in advancing the product, including the implementation of header bidding and floor sense functionalities, resulting in significant ad revenue augmentation for users ",
+        "TECH USED: – HTML, CSS, JS, REACTJS, NODEJS, PREBIDJS and VIDEOJS "
       ]
     }
-    // {
-    //   role: "Front-End Developer",
-    //   company: "Quora",
-    //   companylogo: require("./assets/images/quoraLogo.png"),
-    //   date: "May 2017 – May 2018",
-    //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    // }
-    // {
-    //   role: "Software Engineer Intern",
-    //   company: "Airbnb",
-    //   companylogo: require("./assets/images/airbnbLogo.png"),
-    //   date: "Jan 2015 – Sep 2015",
-    //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    // }
   ]
 };
 
@@ -254,19 +253,19 @@ const achievementSection = {
         }
       ]
     },
-    {
-      title: "CodeForces",
-      subtitle:
-        "Specialist (Max Rating – 1466) | Solved over 800 problems | Ranked 1416 on Educational Round | Maintained streak of 600+ days",
-      image: require("./assets/images/codeforcesimage.jpeg"),
-      imageAlt: "Codeforces Logo",
-      footerLink: [
-        {
-          url: "https://codeforces.com/profile/SachinKumarGupta",
-          name: "Visit Profile"
-        }
-      ]
-    },
+    // {
+    //   title: "CodeForces",
+    //   subtitle:
+    //     "Specialist (Max Rating – 1466) | Solved over 800 problems | Ranked 1416 on Educational Round | Maintained streak of 600+ days",
+    //   image: require("./assets/images/codeforcesimage.jpeg"),
+    //   imageAlt: "Codeforces Logo",
+    //   footerLink: [
+    //     {
+    //       url: "https://codeforces.com/profile/SachinKumarGupta",
+    //       name: "Visit Profile"
+    //     }
+    //   ]
+    // },
     {
       title: "Leetcode",
       subtitle:
@@ -404,7 +403,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  email_address: "saadpasta70@gmail.com"
+  email_address: "amanprajapati328@gmail.com"
 };
 
 // Twitter Section
